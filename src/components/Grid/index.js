@@ -1,4 +1,5 @@
 import React  from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components'
 
 const Grid = ({ children, align, justify, gap }) => {
@@ -11,6 +12,13 @@ const Grid = ({ children, align, justify, gap }) => {
             {children}
         </Wrapper>
     )
+}
+
+Grid.propTypes = {
+    children: PropTypes.node,
+    align: PropTypes.string,
+    justify: PropTypes.string,
+    gap: PropTypes.string,
 }
 
 const Wrapper = styled.div`
