@@ -1,8 +1,8 @@
 import React from 'react';
 import styled, { ThemeProvider} from 'styled-components'
-import { GlobalTheme } from './base/theme'
-import { GlobalStyle } from './base/styles'
-import { WidgetPosts, Header } from './components'
+import { GlobalTheme } from 'base/theme'
+import { GlobalStyle } from 'base/styles'
+import { WidgetPosts, Header } from 'components'
 
 function App() {
   return (
