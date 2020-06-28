@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { h1 } from '../../base/mixins/text'
-import { Container } from '../../components'
+import { h1 } from 'base/mixins/text'
+import { Container } from 'components'
 
 const Header = () => {
     return (
